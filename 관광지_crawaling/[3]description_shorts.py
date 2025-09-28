@@ -2,10 +2,11 @@ import json
 import os
 import openai
 from tqdm import tqdm
+from dotenv import load_dotenv
 
+load_dotenv()
 # 🔧 OpenAI API 설정
-openai.api_key = os.getenv("Gpt_API_KEY", "sk-?????")
-
+openai.api_key = os.getenv("Gpt_API_KEY")
 # 📁 경로 설정
 INPUT_JSONL = r"C:\Users\changjin\workspace\lab\pln\관광지_crawaling\[2]tour_places_with_description.jsonl"
 OUTPUT_JSONL = r"C:\Users\changjin\workspace\lab\pln\관광지_crawaling\[3]tour_places_summarized.jsonl"

@@ -119,8 +119,11 @@ if __name__ == "__main__":
     # Colab/Notebook 친화: 인자 없어도 기본 경로로 실행
     DEFAULT_INPUT = r"C:\Users\changjin\workspace\lab\pln\review_crwaling\[13]data_updated.jsonl"
     DEFAULT_OUTPUT = r"C:\Users\changjin\workspace\lab\pln\review_crwaling\[14]last_data.jsonl"
+    from dotenv import load_dotenv
+    import os, openai
 
-    API_KEY = os.getenv("Gpt_API_KEY", "sk-????")
+    load_dotenv()
+    API_KEY = os.getenv("Gpt_API_KEY")
     if not API_KEY:
         raise RuntimeError("Environment variable Gpt_API_KEY is empty. "
                            "Set in Colab: %env Gpt_API_KEY=sk-...")

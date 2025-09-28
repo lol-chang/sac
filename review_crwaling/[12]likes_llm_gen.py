@@ -5,7 +5,10 @@ from typing import List, Tuple
 
 from langchain.chat_models import ChatOpenAI
 
+from dotenv import load_dotenv
+import os, openai
 
+load_dotenv()
 # -----------------------------
 # 1. LLM 호출
 # -----------------------------
@@ -144,10 +147,7 @@ def process_reviews_in_jsonl(
 if __name__ == "__main__":
     api_config = {
         "gpt-4o": {
-            "api_key": os.getenv(
-                "Gpt_API_KEY",
-                "sk-????",
-            ),  # 환경 변수에서 API 키 읽음
+            "api_key": os.getenv("Gpt_API_KEY"),  # 환경 변수에서 API 키 읽음
             "url": "https://api.openai.com/v1/",
             "model": "gpt-4o",
         },
