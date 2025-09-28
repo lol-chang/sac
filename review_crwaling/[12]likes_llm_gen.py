@@ -146,7 +146,7 @@ if __name__ == "__main__":
         "gpt-4o": {
             "api_key": os.getenv(
                 "Gpt_API_KEY",
-                "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",
+                "sk-????",
             ),  # 환경 변수에서 API 키 읽음
             "url": "https://api.openai.com/v1/",
             "model": "gpt-4o",

@@ -4,7 +4,7 @@ import openai
 from tqdm import tqdm
 
 # 🔧 OpenAI API 설정
-openai.api_key = os.getenv("Gpt_API_KEY", "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")
+openai.api_key = os.getenv("Gpt_API_KEY", "sk-?????")
 
 # 📁 경로 설정
 INPUT_JSONL = r"C:\Users\changjin\workspace\lab\pln\관광지_crawaling\[2]tour_places_with_description.jsonl"

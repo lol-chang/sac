@@ -120,7 +120,7 @@ if __name__ == "__main__":
     DEFAULT_INPUT = r"C:\Users\changjin\workspace\lab\pln\review_crwaling\[13]data_updated.jsonl"
     DEFAULT_OUTPUT = r"C:\Users\changjin\workspace\lab\pln\review_crwaling\[14]last_data.jsonl"
 
-    API_KEY = os.getenv("Gpt_API_KEY", "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")
+    API_KEY = os.getenv("Gpt_API_KEY", "sk-????")
     if not API_KEY:
         raise RuntimeError("Environment variable Gpt_API_KEY is empty. "
                            "Set in Colab: %env Gpt_API_KEY=sk-...")
