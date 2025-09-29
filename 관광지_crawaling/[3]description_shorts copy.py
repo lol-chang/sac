@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 # 🔧 OpenAI API 설정
-openai.api_key = os.getenv("Gpt_API_KEY")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 # 📁 경로 설정
 INPUT_JSONL = r"C:\Users\changjin\workspace\lab\pln\관광지_crawaling\[2]tour_places_with_description.jsonl"
 OUTPUT_JSONL = r"C:\Users\changjin\workspace\lab\pln\관광지_crawaling\[3]tour_places_summarized.jsonl"
@@ -28,6 +28,7 @@ SYSTEM_MSG = (
     "<|eot_id|><|start_header_id|>assistant<|end_header_id|>"
 )
 
+
 # 🧠 요약 생성 함수
 def get_summary(description: str, model: str = "gpt-4o") -> str:
     user_msg = f"The original description is:\n{description.strip()}"
@@ -36,7 +37,7 @@ def get_summary(description: str, model: str = "gpt-4o") -> str:
             model=model,
             messages=[
                 {"role": "system", "content": SYSTEM_MSG},
-                {"role": "user", "content": user_msg}
+                {"role": "user", "content": user_msg},
             ],
             temperature=0.3,
         )
@@ -48,9 +49,11 @@ def get_summary(description: str, model: str = "gpt-4o") -> str:
         print("⚠️ API 요청 오류:", e)
         return None
 
+
 # 🔁 전체 처리 루프
-with open(INPUT_JSONL, "r", encoding="utf-8") as infile, \
-     open(OUTPUT_JSONL, "w", encoding="utf-8") as outfile:
+with open(INPUT_JSONL, "r", encoding="utf-8") as infile, open(
+    OUTPUT_JSONL, "w", encoding="utf-8"
+) as outfile:
 
     for line in tqdm(infile, desc="🔍 Summarizing and Replacing Description"):
         data = json.loads(line)
