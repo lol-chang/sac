@@ -1,0 +1,197 @@
+{
+  "budget_per_day": 666666,
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "2025-10-07",
+      "travel_day": "화",
+      "season": "offpeak",
+      "is_weekend": false,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "09:30",
+          "name": "강릉 하이오션618호"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "10:30",
+          "name": "주문진항"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "12:00",
+          "name": "에이엠브레드앤커피"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "13:30",
+          "name": "강릉79막회"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "15:00",
+          "name": "강릉 한울타리마을"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "16:30",
+          "name": "해옫 강릉"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "18:00",
+          "name": "아라담횟집"
+        },
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "19:30",
+          "name": "강릉 하이오션618호"
+        }
+      ],
+      "daily_cost": 666666,
+      "cost_breakdown": {
+        "accommodation": 65000,
+        "restaurants": 123266,
+        "cafe": 6420,
+        "attractions": 0
+      },
+      "daily_description": "첫째 날은 주문진항에서 바다의 풍경을 즐기고, 신선한 해산물 요리를 맛보는 여유로운 하루입니다."
+    },
+    {
+      "day": 2,
+      "date": "2025-10-08",
+      "travel_day": "수",
+      "season": "offpeak",
+      "is_weekend": false,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "09:30",
+          "name": "강릉 하이오션618호"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "10:30",
+          "name": "정감이마을"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "12:00",
+          "name": "젤라또까사"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "13:30",
+          "name": "오봉이해물칼국수 강릉본점"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "15:00",
+          "name": "주문진해수욕장"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "16:30",
+          "name": "포르토포레스트하우스"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "18:00",
+          "name": "부자대게"
+        },
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "19:30",
+          "name": "강릉 하이오션618호"
+        }
+      ],
+      "daily_cost": 666666,
+      "cost_breakdown": {
+        "accommodation": 65000,
+        "restaurants": 62200,
+        "cafe": 10136,
+        "attractions": 0
+      },
+      "daily_description": "둘째 날은 정감이마을에서 전통적인 분위기를 느끼고, 해수욕장에서 여유로운 시간을 보냅니다."
+    },
+    {
+      "day": 3,
+      "date": "2025-10-09",
+      "travel_day": "목",
+      "season": "offpeak",
+      "is_weekend": false,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "09:30",
+          "name": "강릉 하이오션618호"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "10:30",
+          "name": "주문진해수욕장"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "12:00",
+          "name": "스타벅스 강릉중앙점"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "13:30",
+          "name": "일미소문난생선구이"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "15:00",
+          "name": "강릉 대도호부 관아"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "16:30",
+          "name": "디오슬로"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "18:00",
+          "name": "강문가"
+        }
+      ],
+      "daily_cost": 666666,
+      "cost_breakdown": {
+        "accommodation": 65000,
+        "restaurants": 120400,
+        "cafe": 51419,
+        "attractions": 0
+      },
+      "daily_description": "셋째 날은 강릉 대도호부 관아에서 역사적인 매력을 느끼며, 다양한 맛의 음식을 즐기는 하루입니다."
+    }
+  ]
+}

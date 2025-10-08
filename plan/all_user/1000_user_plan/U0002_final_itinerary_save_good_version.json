@@ -1,0 +1,266 @@
+{
+  "budget_per_day": 666666,
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "2025-10-07",
+      "travel_day": "화",
+      "season": "offpeak",
+      "is_weekend": false,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "id": 10058072,
+          "name": "강릉 하이오션618호",
+          "lat": 37.8039168,
+          "lng": 128.903469,
+          "price_per_night": 65000.0,
+          "time": "09:30"
+        },
+        {
+          "category": "Attraction",
+          "id": 12079976,
+          "name": "경포해수욕장",
+          "lat": 37.8058292968,
+          "lng": 128.9074668585,
+          "price": 0,
+          "time": "10:30"
+        },
+        {
+          "category": "Cafe",
+          "id": 1899236965,
+          "name": "삼송빵집 강릉경포점",
+          "lat": 37.807654325104,
+          "lng": 128.901770403398,
+          "avg_price": 5371.0,
+          "time": "12:00"
+        },
+        {
+          "category": "Restaurant",
+          "id": 1815335754,
+          "name": "오봉이해물칼국수 강릉본점",
+          "lat": 37.8017882047596,
+          "lng": 128.910973182847,
+          "avg_price": 45214.0,
+          "time": "13:30"
+        },
+        {
+          "category": "Attraction",
+          "id": 1130774967,
+          "name": "허균·허난설헌 기념공원",
+          "lat": 37.7917948539,
+          "lng": 128.9097365341,
+          "price": 0,
+          "time": "15:00"
+        },
+        {
+          "category": "Cafe",
+          "id": 2058022471,
+          "name": "온유",
+          "lat": 37.8195343822844,
+          "lng": 128.855101834649,
+          "avg_price": 4500.0,
+          "time": "16:30"
+        },
+        {
+          "category": "Restaurant",
+          "id": 15351961,
+          "name": "남향막국수 본점",
+          "lat": 37.7980175678158,
+          "lng": 128.89489519674,
+          "avg_price": 12636.0,
+          "time": "18:00"
+        },
+        {
+          "category": "Accommodation",
+          "id": 10058072,
+          "name": "강릉 하이오션618호",
+          "lat": 37.8039168,
+          "lng": 128.903469,
+          "price_per_night": 65000.0,
+          "time": "19:30"
+        }
+      ],
+      "daily_cost": 666666,
+      "cost_breakdown": {
+        "accommodation": 65000.0,
+        "restaurants": 57850.0,
+        "cafe": 9871.0,
+        "attractions": 0
+      },
+      "daily_description": "첫째 날은 경포해변을 중심으로 바다 풍경과 해물 요리를 즐기는 여유로운 하루입니다."
+    },
+    {
+      "day": 2,
+      "date": "2025-10-08",
+      "travel_day": "수",
+      "season": "offpeak",
+      "is_weekend": false,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "id": 10058072,
+          "name": "강릉 하이오션618호",
+          "lat": 37.8039168,
+          "lng": 128.903469,
+          "price_per_night": 65000.0,
+          "time": "09:30"
+        },
+        {
+          "category": "Attraction",
+          "id": 11620702,
+          "name": "강릉 오죽헌·시립박물관",
+          "lat": 37.7791929484,
+          "lng": 128.8796896318,
+          "price": 0,
+          "time": "10:30"
+        },
+        {
+          "category": "Cafe",
+          "id": 1605447318,
+          "name": "젤라또까사",
+          "lat": 37.7560318917407,
+          "lng": 128.881476427853,
+          "avg_price": 10136.0,
+          "time": "12:00"
+        },
+        {
+          "category": "Restaurant",
+          "id": 36195920,
+          "name": "꼼지락",
+          "lat": 37.7652298735056,
+          "lng": 128.880245877396,
+          "avg_price": 31000.0,
+          "time": "13:30"
+        },
+        {
+          "category": "Attraction",
+          "id": 15685783,
+          "name": "강릉 대도호부 관아",
+          "lat": 37.7532767444,
+          "lng": 128.8921226461,
+          "price": 0,
+          "time": "15:00"
+        },
+        {
+          "category": "Cafe",
+          "id": 1651019497,
+          "name": "스타벅스 강릉중앙점",
+          "lat": 37.7548890212597,
+          "lng": 128.896073265408,
+          "avg_price": 5700.0,
+          "time": "16:30"
+        },
+        {
+          "category": "Restaurant",
+          "id": 1587875423,
+          "name": "부자대게",
+          "lat": 37.7549899680255,
+          "lng": 128.899716121994,
+          "avg_price": 62200.0,
+          "time": "18:00"
+        },
+        {
+          "category": "Accommodation",
+          "id": 10058072,
+          "name": "강릉 하이오션618호",
+          "lat": 37.8039168,
+          "lng": 128.903469,
+          "price_per_night": 65000.0,
+          "time": "19:30"
+        }
+      ],
+      "daily_cost": 666666,
+      "cost_breakdown": {
+        "accommodation": 65000.0,
+        "restaurants": 93200.0,
+        "cafe": 15836.0,
+        "attractions": 0
+      },
+      "daily_description": "둘째 날은 강릉의 역사와 문화를 탐방하며 다양한 맛을 즐기는 날입니다."
+    },
+    {
+      "day": 3,
+      "date": "2025-10-09",
+      "travel_day": "목",
+      "season": "offpeak",
+      "is_weekend": false,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "id": 10058072,
+          "name": "강릉 하이오션618호",
+          "lat": 37.8039168,
+          "lng": 128.903469,
+          "price_per_night": 65000.0,
+          "time": "09:30"
+        },
+        {
+          "category": "Attraction",
+          "id": 13345873,
+          "name": "강릉 중앙시장",
+          "lat": 37.7540166632039,
+          "lng": 128.898611774099,
+          "price": 0,
+          "time": "10:30"
+        },
+        {
+          "category": "Cafe",
+          "id": 1273489865,
+          "name": "1992년 사기막",
+          "lat": 37.7898809933406,
+          "lng": 128.814175894016,
+          "avg_price": 7600.0,
+          "time": "12:00"
+        },
+        {
+          "category": "Restaurant",
+          "id": 15356407,
+          "name": "금홍대게",
+          "lat": 37.8950768248691,
+          "lng": 128.831271388587,
+          "avg_price": 49227.0,
+          "time": "13:30"
+        },
+        {
+          "category": "Attraction",
+          "id": 13491005,
+          "name": "주문진해수욕장",
+          "lat": 37.9106348733,
+          "lng": 128.8188493785,
+          "price": 0,
+          "time": "15:00"
+        },
+        {
+          "category": "Cafe",
+          "id": 1266299794,
+          "name": "해옫 강릉",
+          "lat": 37.8928202306504,
+          "lng": 128.827087871328,
+          "avg_price": 18720.0,
+          "time": "16:30"
+        },
+        {
+          "category": "Restaurant",
+          "id": 1888740640,
+          "name": "영진항",
+          "lat": 37.8859358475949,
+          "lng": 128.828969313654,
+          "avg_price": 114000.0,
+          "time": "18:00"
+        }
+      ],
+      "daily_cost": 666666,
+      "cost_breakdown": {
+        "accommodation": 65000.0,
+        "restaurants": 163227.0,
+        "cafe": 26320.0,
+        "attractions": 0
+      },
+      "daily_description": "셋째 날은 주문진 해변을 방문하여 바다의 여유로움을 만끽하는 날입니다."
+    }
+  ]
+}
