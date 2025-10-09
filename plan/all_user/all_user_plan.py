@@ -11,16 +11,16 @@ api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 
 # ========== 2. 프롬프트 정의 ==========
-SYSTEM_PROMPT = """여행 일정 JSON 생성기입니다.
+SYSTEM_PROMPT = """You are a travel itinerary JSON generator.
 
-출력 형식:
+Output format:
 {
-  "budget_per_day": 전체예산/일수,
+  "budget_per_day": total_budget / number_of_days,
   "itinerary": [
     {
       "day": 1,
       "date": "YYYY-MM-DD",
-      "travel_day": "월",
+      "travel_day": "Mon",
       "season": "peak",
       "is_weekend": false,
       "transport": "car",
@@ -32,27 +32,27 @@ SYSTEM_PROMPT = """여행 일정 JSON 생성기입니다.
   ]
 }
 
-규칙:
-1. 모든 날 첫 활동 = Accommodation (숙소 출발)
-2. 마지막 날 제외하고 마지막 활동 = Accommodation (숙소 귀환)
-3. 마지막 날은 Accommodation 귀환 없음
-4. travel_day = 월, 화, 수, 목, 금, 토, 일 중 하나
-5. season = 7,8,12,1월이면 "peak", 나머지는 "offpeak"
-6. is_weekend = 금요일 또는 토요일이면 true, 나머지 false
+Rules:
+1. Each day must start with Accommodation (departure from the hotel).
+2. Except for the last day, each day must end with Accommodation (return to the hotel).
+3. The last day does not include returning to Accommodation.
+4. travel_day must be one of: Mon, Tue, Wed, Thu, Fri, Sat, Sun.
+5. season = "peak" if the month is July, August, December, or January; otherwise "offpeak".
+6. is_weekend = true if the day is Friday or Saturday; otherwise false.
 
-시간대 (나이별):
-- 10~20대: 09:30~20:30
-- 30~40대: 08:30~20:00
-- 50대+: 08:00~18:30
+Time ranges by age group:
+- Age 10–20s: 09:30–20:30
+- Age 30–40s: 08:30–20:00
+- Age 50+: 08:00–18:30
 
-스타일별 활동 개수 (하루 기준):
-- Healing: Attraction 1~2, Cafe 1~2, Restaurant 2
-- Foodie: Attraction 1~2, Cafe 1~2, Restaurant 3
-- Activity: Attraction 3~4, Cafe 1, Restaurant 1
-- Cultural: Attraction 2~3, Cafe 1, Restaurant 2
+Number of activities per style (per day):
+- Healing: 1–2 Attractions, 1–2 Cafes, 2 Restaurants
+- Foodie: 1–2 Attractions, 1–2 Cafes, 3 Restaurants
+- Activity: 3–4 Attractions, 1 Cafe, 1 Restaurant
+- Cultural: 2–3 Attractions, 1 Cafe, 2 Restaurants
 
-마지막 날은 Accommodation 귀환 없음.
-순수 JSON만 출력하세요. 마크다운 코드블록(```) 사용 금지.
+The last day does not include returning to Accommodation.
+Output pure JSON only. Do NOT use markdown code blocks (```).
 """
 
 # ========== 3. 유틸 함수 ==========
@@ -107,7 +107,7 @@ def generate_itinerary(user_profile: dict):
     """
 
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="gpt-4o",
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": user_prompt}
@@ -132,7 +132,7 @@ def generate_itinerary(user_profile: dict):
 # ========== 5. 메인 실행 ==========
 if __name__ == "__main__":
     # CSV 파일 경로
-    csv_path = r"C:\Users\changjin\workspace\lab\pln\data_set\5_user_info.csv"
+    csv_path = r"C:\Users\changjin\workspace\lab\pln\data_set\1000_user_info.csv"
 
     # 결과 저장 폴더 (하나만 사용)
     base_output_dir = r"C:\Users\changjin\workspace\lab\pln\plan\all_user\1000_user_plan"

@@ -1,0 +1,50 @@
+{
+  "budget_per_day": 100000,
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "2025-08-20",
+      "travel_day": "Wed",
+      "season": "peak",
+      "is_weekend": false,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "08:30"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "10:00"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "11:30"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "13:00"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "15:00"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "16:30"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "18:00"
+        }
+      ]
+    }
+  ]
+}

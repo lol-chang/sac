@@ -15,8 +15,8 @@ from weaviate.classes import query as wq
 CONFIG = {
     "USER_FILE": r"C:\Users\changjin\workspace\lab\pln\data_set\1000_user_info.csv",
     "DATA_DIR": r"C:\Users\changjin\workspace\lab\pln\data_set\null_X",
-    "OUTPUT_DIR": r"C:\Users\changjin\workspace\lab\pln\vector_embedding\review_count_with_softmax\user_results",
-    "TOP_K": 150,
+    "OUTPUT_DIR": r"C:\Users\changjin\workspace\lab\pln\vector_embedding\review_count_with_softmax\for_clustering_user",
+    "TOP_K": 300,
     "GAMMA": 0.3   # 리뷰수 가중치
 }
 
@@ -61,7 +61,8 @@ def rerank_with_penalty(user_like_vec, user_dislike_vecs, category_name,
                         top_k=30, alpha=1.0, beta=0.5, dislike_threshold=0.75):
     results = collection.query.near_vector(
         near_vector=user_like_vec.tolist(),
-        limit=top_k*3,
+        # limit=top_k*20,
+        limit=4000,
         return_metadata=["distance"],
         include_vector=True,
         filters=wq.Filter.by_property("category").equal(category_name)
@@ -87,7 +88,8 @@ def rerank_with_penalty(user_like_vec, user_dislike_vecs, category_name,
         scored.append((obj, sim_score))
 
     scored.sort(key=lambda x: x[1], reverse=True)
-    return scored[:top_k]
+    # return scored[:top_k]
+    return scored
 
 
 # ========== 4. 리뷰수 기반 정규화 + 최종 스코어 ==========
@@ -126,7 +128,7 @@ def attach_review_scores_and_final(results_by_cat, data_dir, gamma=0.3):
             final_score = (1 - gamma) * sim_score + gamma * rn
             cat_list.append({
                 "id": pid,
-                "category": CATEGORY_TRANSLATE[cat],
+                # "category": CATEGORY_TRANSLATE[cat],
                 "final_score": float(final_score)
             })
 

@@ -4,7 +4,7 @@
     {
       "day": 1,
       "date": "2025-01-24",
-      "travel_day": "금",
+      "travel_day": "Fri",
       "season": "peak",
       "is_weekend": true,
       "transport": "car",
@@ -37,7 +37,7 @@
         {
           "category": "Cafe",
           "count": 1,
-          "time": "17:00"
+          "time": "16:30"
         },
         {
           "category": "Restaurant",

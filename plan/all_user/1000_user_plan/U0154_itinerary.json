@@ -1,0 +1,100 @@
+{
+  "budget_per_day": 100000,
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "2025-10-17",
+      "travel_day": "Fri",
+      "season": "offpeak",
+      "is_weekend": true,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "08:30"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "09:30"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "11:00"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "13:00"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "15:00"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "16:30"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "18:00"
+        },
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "19:30"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2025-10-18",
+      "travel_day": "Sat",
+      "season": "offpeak",
+      "is_weekend": true,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "08:30"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "09:30"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "11:00"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "13:00"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "15:00"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "16:30"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "18:00"
+        }
+      ]
+    }
+  ]
+}

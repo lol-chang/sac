@@ -1,0 +1,100 @@
+{
+  "budget_per_day": 650000,
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "2025-09-13",
+      "travel_day": "Sat",
+      "season": "offpeak",
+      "is_weekend": true,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "08:30"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "09:30"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "12:00"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "13:30"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "15:30"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "17:00"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "18:30"
+        },
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "20:00"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2025-09-14",
+      "travel_day": "Sun",
+      "season": "offpeak",
+      "is_weekend": false,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "08:30"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "09:00"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "11:30"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "13:00"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "15:00"
+        },
+        {
+          "category": "Attraction",
+          "count": 1,
+          "time": "16:30"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "18:00"
+        }
+      ]
+    }
+  ]
+}

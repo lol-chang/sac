@@ -1,10 +1,10 @@
 {
-  "budget_per_day": 666666,
+  "budget_per_day": 666666.67,
   "itinerary": [
     {
       "day": 1,
       "date": "2025-10-07",
-      "travel_day": "화",
+      "travel_day": "Tue",
       "season": "offpeak",
       "is_weekend": false,
       "transport": "car",
@@ -15,19 +15,19 @@
           "time": "09:30"
         },
         {
-          "category": "Attraction",
+          "category": "Cafe",
           "count": 1,
           "time": "10:30"
         },
         {
-          "category": "Cafe",
+          "category": "Attraction",
           "count": 1,
-          "time": "12:00"
+          "time": "11:30"
         },
         {
           "category": "Restaurant",
           "count": 1,
-          "time": "13:30"
+          "time": "13:00"
         },
         {
           "category": "Attraction",
@@ -37,24 +37,24 @@
         {
           "category": "Cafe",
           "count": 1,
-          "time": "16:30"
+          "time": "17:00"
         },
         {
           "category": "Restaurant",
           "count": 1,
-          "time": "18:00"
+          "time": "18:30"
         },
         {
           "category": "Accommodation",
           "count": 1,
-          "time": "19:30"
+          "time": "20:00"
         }
       ]
     },
     {
       "day": 2,
       "date": "2025-10-08",
-      "travel_day": "수",
+      "travel_day": "Wed",
       "season": "offpeak",
       "is_weekend": false,
       "transport": "car",
@@ -65,19 +65,19 @@
           "time": "09:30"
         },
         {
-          "category": "Attraction",
+          "category": "Cafe",
           "count": 1,
           "time": "10:30"
         },
         {
-          "category": "Cafe",
+          "category": "Attraction",
           "count": 1,
-          "time": "12:00"
+          "time": "11:30"
         },
         {
           "category": "Restaurant",
           "count": 1,
-          "time": "13:30"
+          "time": "13:00"
         },
         {
           "category": "Attraction",
@@ -87,24 +87,24 @@
         {
           "category": "Cafe",
           "count": 1,
-          "time": "16:30"
+          "time": "17:00"
         },
         {
           "category": "Restaurant",
           "count": 1,
-          "time": "18:00"
+          "time": "18:30"
         },
         {
           "category": "Accommodation",
           "count": 1,
-          "time": "19:30"
+          "time": "20:00"
         }
       ]
     },
     {
       "day": 3,
       "date": "2025-10-09",
-      "travel_day": "목",
+      "travel_day": "Thu",
       "season": "offpeak",
       "is_weekend": false,
       "transport": "car",
@@ -115,19 +115,19 @@
           "time": "09:30"
         },
         {
-          "category": "Attraction",
+          "category": "Cafe",
           "count": 1,
           "time": "10:30"
         },
         {
-          "category": "Cafe",
+          "category": "Attraction",
           "count": 1,
-          "time": "12:00"
+          "time": "11:30"
         },
         {
           "category": "Restaurant",
           "count": 1,
-          "time": "13:30"
+          "time": "13:00"
         },
         {
           "category": "Attraction",
@@ -137,12 +137,12 @@
         {
           "category": "Cafe",
           "count": 1,
-          "time": "16:30"
+          "time": "17:00"
         },
         {
           "category": "Restaurant",
           "count": 1,
-          "time": "18:00"
+          "time": "18:30"
         }
       ]
     }

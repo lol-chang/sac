@@ -4,7 +4,7 @@
     {
       "day": 1,
       "date": "2025-05-18",
-      "travel_day": "일",
+      "travel_day": "Sun",
       "season": "offpeak",
       "is_weekend": false,
       "transport": "car",
@@ -15,34 +15,34 @@
           "time": "09:30"
         },
         {
-          "category": "Attraction",
+          "category": "Cafe",
           "count": 1,
           "time": "10:30"
         },
         {
-          "category": "Cafe",
+          "category": "Attraction",
           "count": 1,
           "time": "12:00"
         },
         {
-          "category": "Restaurant",
-          "count": 1,
-          "time": "13:30"
-        },
-        {
           "category": "Attraction",
           "count": 1,
-          "time": "15:00"
+          "time": "14:00"
         },
         {
-          "category": "Cafe",
+          "category": "Restaurant",
           "count": 1,
-          "time": "16:30"
+          "time": "16:00"
         },
         {
           "category": "Restaurant",
           "count": 1,
           "time": "18:00"
+        },
+        {
+          "category": "Restaurant",
+          "count": 1,
+          "time": "19:30"
         }
       ]
     }
