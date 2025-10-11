@@ -10,11 +10,6 @@
       "transport": "car",
       "place_plan": [
         {
-          "category": "Accommodation",
-          "count": 1,
-          "time": "09:30"
-        },
-        {
           "category": "Attraction",
           "count": 1,
           "time": "10:30"

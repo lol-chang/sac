@@ -49,6 +49,7 @@ Number of activities per style (per day):
 - Healing: 1–2 Attractions, 1–2 Cafes, 2 Restaurants
 - Foodie: 1–2 Attractions, 1–2 Cafes, 3 Restaurants
 - Activity: 3–4 Attractions, 1 Cafe, 1 Restaurant
+.
 - Cultural: 2–3 Attractions, 1 Cafe, 2 Restaurants
 
 The last day does not include returning to Accommodation.

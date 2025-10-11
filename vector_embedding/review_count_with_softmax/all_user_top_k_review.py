@@ -85,6 +85,7 @@ def rerank_with_penalty(user_like_vec, user_dislike_vecs, category_name,
             continue
 
         sim_score = alpha * like_sim - beta * max_dislike_sim
+        sim_score = max(0, sim_score)  
         scored.append((obj, sim_score))
 
     scored.sort(key=lambda x: x[1], reverse=True)

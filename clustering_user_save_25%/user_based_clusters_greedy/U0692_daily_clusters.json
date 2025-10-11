@@ -1,0 +1,1417 @@
+{
+  "user_id": "U0692",
+  "start_date": "2025-08-01",
+  "start_weekday": "금",
+  "duration_days": 5,
+  "budget": 1400000,
+  "num_clusters": 5,
+  "clustering_method": "greedy_score_based_with_store_hours",
+  "seed_strategy": "highest_score_only",
+  "max_cluster_radius_km": 6,
+  "min_places_per_category": 7,
+  "places_per_category": 15,
+  "Accommodation": 10060848,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "date": "2025-08-01",
+      "weekday": "금",
+      "seed_category": "Restaurant",
+      "seed_place": {
+        "id": 1920437123,
+        "name": "그고깃집",
+        "final_score": 0.5013
+      },
+      "center_lat": 37.769652,
+      "center_lng": 128.913957,
+      "categories": {
+        "Cafe": [
+          {
+            "id": 15318913,
+            "name": "돔베이커리",
+            "final_score": 0.1746,
+            "distance_from_center": 0.03
+          },
+          {
+            "id": 1033478410,
+            "name": "그다이마잇",
+            "final_score": 0.2921,
+            "distance_from_center": 0.34
+          },
+          {
+            "id": 66343890,
+            "name": "강릉빵다방",
+            "final_score": 0.0359,
+            "distance_from_center": 0.37
+          },
+          {
+            "id": 1838131828,
+            "name": "강릉카페 체크이스트",
+            "final_score": 0.2445,
+            "distance_from_center": 0.4
+          },
+          {
+            "id": 1391511090,
+            "name": "삼척오란다 강릉점",
+            "final_score": 0.3624,
+            "distance_from_center": 0.51
+          },
+          {
+            "id": 1737820343,
+            "name": "고메코나베이커리",
+            "final_score": 0.1778,
+            "distance_from_center": 0.52
+          },
+          {
+            "id": 1891894301,
+            "name": "플레이스 플러스",
+            "final_score": 0.3131,
+            "distance_from_center": 0.58
+          },
+          {
+            "id": 1588834856,
+            "name": "르블레도르",
+            "final_score": 0.2201,
+            "distance_from_center": 0.62
+          },
+          {
+            "id": 1830452681,
+            "name": "스타벅스 강릉송정DT점",
+            "final_score": 0.2316,
+            "distance_from_center": 0.83
+          },
+          {
+            "id": 1756159133,
+            "name": "카페디드",
+            "final_score": 0.285,
+            "distance_from_center": 0.92
+          },
+          {
+            "id": 1612034459,
+            "name": "어머야라",
+            "final_score": 0.3518,
+            "distance_from_center": 1.12
+          },
+          {
+            "id": 1457952472,
+            "name": "월선화",
+            "final_score": 0.1948,
+            "distance_from_center": 1.26
+          },
+          {
+            "id": 1569323095,
+            "name": "비사이드그라운드",
+            "final_score": 0.2719,
+            "distance_from_center": 1.35
+          },
+          {
+            "id": 1763916720,
+            "name": "강릉커피콩빵 강릉당 강릉역점",
+            "final_score": 0.0341,
+            "distance_from_center": 1.37
+          },
+          {
+            "id": 1656009767,
+            "name": "메가MGC커피 강릉역점",
+            "final_score": 0.241,
+            "distance_from_center": 1.38
+          }
+        ],
+        "Restaurant": [
+          {
+            "id": 1920437123,
+            "name": "그고깃집",
+            "final_score": 0.5013,
+            "distance_from_center": 0.0
+          },
+          {
+            "id": 21679370,
+            "name": "마포주먹고기",
+            "final_score": 0.3046,
+            "distance_from_center": 0.02
+          },
+          {
+            "id": 1192593290,
+            "name": "납돌추어탕",
+            "final_score": 0.1803,
+            "distance_from_center": 0.02
+          },
+          {
+            "id": 15315713,
+            "name": "솔이네쌈밥집",
+            "final_score": 0.3122,
+            "distance_from_center": 0.02
+          },
+          {
+            "id": 31799277,
+            "name": "병산닭발과부침개",
+            "final_score": 0.2243,
+            "distance_from_center": 0.02
+          },
+          {
+            "id": 1587239044,
+            "name": "암사직화쪽갈비 강릉점",
+            "final_score": 0.3317,
+            "distance_from_center": 0.05
+          },
+          {
+            "id": 15385027,
+            "name": "청송장칼국수",
+            "final_score": 0.1066,
+            "distance_from_center": 0.05
+          },
+          {
+            "id": 1242231665,
+            "name": "이정희차돌박이김치두루치기",
+            "final_score": 0.1977,
+            "distance_from_center": 0.05
+          },
+          {
+            "id": 2075106875,
+            "name": "케이양한우곱창",
+            "final_score": 0.3569,
+            "distance_from_center": 0.09
+          },
+          {
+            "id": 1517085264,
+            "name": "소문난밥상",
+            "final_score": 0.2368,
+            "distance_from_center": 0.11
+          },
+          {
+            "id": 1971811879,
+            "name": "찌개세끼",
+            "final_score": 0.2994,
+            "distance_from_center": 0.17
+          },
+          {
+            "id": 21338790,
+            "name": "오리본가선자령",
+            "final_score": 0.4319,
+            "distance_from_center": 0.18
+          },
+          {
+            "id": 20665635,
+            "name": "가마솥쌈밥",
+            "final_score": 0.2671,
+            "distance_from_center": 0.23
+          },
+          {
+            "id": 1839279712,
+            "name": "강릉꽈배기&핫도그",
+            "final_score": 0.0,
+            "distance_from_center": 0.24
+          },
+          {
+            "id": 1255404157,
+            "name": "백사장",
+            "final_score": 0.2917,
+            "distance_from_center": 0.24
+          }
+        ],
+        "Attraction": [
+          {
+            "id": 13345874,
+            "name": "강릉 동부시장",
+            "final_score": 0.0,
+            "distance_from_center": 1.6
+          },
+          {
+            "id": 1550291849,
+            "name": "강릉아트센터",
+            "final_score": 0.1089,
+            "distance_from_center": 1.64
+          },
+          {
+            "id": 11663849,
+            "name": "강릉향교",
+            "final_score": 0.1655,
+            "distance_from_center": 1.78
+          },
+          {
+            "id": 1211834959,
+            "name": "강릉올림픽뮤지엄",
+            "final_score": 0.2028,
+            "distance_from_center": 1.83
+          },
+          {
+            "id": 1357865119,
+            "name": "고래책방",
+            "final_score": 0.3169,
+            "distance_from_center": 1.94
+          },
+          {
+            "id": 32777223,
+            "name": "자연아놀자 체험학습박물관",
+            "final_score": 0.1101,
+            "distance_from_center": 1.95
+          },
+          {
+            "id": 1287320440,
+            "name": "강릉 월화거리",
+            "final_score": 0.2523,
+            "distance_from_center": 2.11
+          },
+          {
+            "id": 1881857549,
+            "name": "강릉 메타버스 체험관",
+            "final_score": 0.0819,
+            "distance_from_center": 2.14
+          },
+          {
+            "id": 13345873,
+            "name": "강릉 중앙시장",
+            "final_score": 0.3599,
+            "distance_from_center": 2.2
+          },
+          {
+            "id": 12762639,
+            "name": "강릉시립미술관 교동",
+            "final_score": 0.4043,
+            "distance_from_center": 2.27
+          },
+          {
+            "id": 37434460,
+            "name": "경포 아쿠아리움",
+            "final_score": 0.2524,
+            "distance_from_center": 2.33
+          },
+          {
+            "id": 1090555407,
+            "name": "아르떼뮤지엄 강릉",
+            "final_score": 0.1874,
+            "distance_from_center": 2.33
+          },
+          {
+            "id": 20065935,
+            "name": "송정해변",
+            "final_score": 0.3441,
+            "distance_from_center": 2.35
+          },
+          {
+            "id": 1112785467,
+            "name": "런닝맨 강릉점",
+            "final_score": 0.2416,
+            "distance_from_center": 2.48
+          },
+          {
+            "id": 1130774967,
+            "name": "허균·허난설헌 기념공원",
+            "final_score": 0.2763,
+            "distance_from_center": 2.49
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 1,
+      "date": "2025-08-02",
+      "weekday": "토",
+      "seed_category": "Restaurant",
+      "seed_place": {
+        "id": 1434030213,
+        "name": "강남흑염소전문점",
+        "final_score": 0.4918
+      },
+      "center_lat": 37.843414,
+      "center_lng": 128.856735,
+      "categories": {
+        "Cafe": [
+          {
+            "id": 1777557364,
+            "name": "크림하우스",
+            "final_score": 0.2562,
+            "distance_from_center": 0.87
+          },
+          {
+            "id": 1779443730,
+            "name": "곳",
+            "final_score": 0.2043,
+            "distance_from_center": 1.39
+          },
+          {
+            "id": 1745145004,
+            "name": "바우카페 본점",
+            "final_score": 0.127,
+            "distance_from_center": 1.68
+          },
+          {
+            "id": 2069032826,
+            "name": "원강희과자점",
+            "final_score": 0.2615,
+            "distance_from_center": 1.78
+          },
+          {
+            "id": 13535267,
+            "name": "쉘리스",
+            "final_score": 0.0712,
+            "distance_from_center": 1.79
+          },
+          {
+            "id": 2058022471,
+            "name": "온유",
+            "final_score": 0.3196,
+            "distance_from_center": 2.66
+          },
+          {
+            "id": 11682971,
+            "name": "보헤미안박이추커피본점",
+            "final_score": 0.1256,
+            "distance_from_center": 2.67
+          },
+          {
+            "id": 1900553385,
+            "name": "바우카페",
+            "final_score": 0.2202,
+            "distance_from_center": 2.9
+          },
+          {
+            "id": 15373350,
+            "name": "브라질",
+            "final_score": 0.2364,
+            "distance_from_center": 2.91
+          },
+          {
+            "id": 1839133695,
+            "name": "빵을쇼핑하다빵명가치아바타CIABATTA",
+            "final_score": 0.2778,
+            "distance_from_center": 3.03
+          },
+          {
+            "id": 1009179914,
+            "name": "갈매기다방",
+            "final_score": 0.3362,
+            "distance_from_center": 3.22
+          },
+          {
+            "id": 1174295057,
+            "name": "깔라마리",
+            "final_score": 0.1842,
+            "distance_from_center": 3.24
+          },
+          {
+            "id": 1246262619,
+            "name": "우가",
+            "final_score": 0.2074,
+            "distance_from_center": 3.27
+          },
+          {
+            "id": 1876301121,
+            "name": "포르토포레스트하우스",
+            "final_score": 0.3507,
+            "distance_from_center": 3.35
+          },
+          {
+            "id": 1854962812,
+            "name": "테라로사 사천해변점",
+            "final_score": 0.0297,
+            "distance_from_center": 3.41
+          }
+        ],
+        "Restaurant": [
+          {
+            "id": 1434030213,
+            "name": "강남흑염소전문점",
+            "final_score": 0.4918,
+            "distance_from_center": 0.0
+          },
+          {
+            "id": 1468367465,
+            "name": "채선당 강릉사천항점",
+            "final_score": 0.3342,
+            "distance_from_center": 1.47
+          },
+          {
+            "id": 1015624214,
+            "name": "사천샘골식당",
+            "final_score": 0.3879,
+            "distance_from_center": 1.67
+          },
+          {
+            "id": 1948284531,
+            "name": "조부동막국수",
+            "final_score": 0.1735,
+            "distance_from_center": 1.76
+          },
+          {
+            "id": 19891301,
+            "name": "장안횟집",
+            "final_score": 0.3071,
+            "distance_from_center": 1.76
+          },
+          {
+            "id": 15371788,
+            "name": "전주식당",
+            "final_score": 0.1988,
+            "distance_from_center": 1.78
+          },
+          {
+            "id": 15373710,
+            "name": "연곡면옥",
+            "final_score": 0.1153,
+            "distance_from_center": 1.81
+          },
+          {
+            "id": 11830090,
+            "name": "초시막국수",
+            "final_score": 0.2776,
+            "distance_from_center": 1.87
+          },
+          {
+            "id": 1036955196,
+            "name": "제주해인물회",
+            "final_score": 0.2989,
+            "distance_from_center": 1.87
+          },
+          {
+            "id": 945583235,
+            "name": "산호막국수",
+            "final_score": 0.3521,
+            "distance_from_center": 2.11
+          },
+          {
+            "id": 35743969,
+            "name": "솔밭추어탕",
+            "final_score": 0.3297,
+            "distance_from_center": 2.33
+          },
+          {
+            "id": 1866632720,
+            "name": "사천닭내장탕",
+            "final_score": 0.1589,
+            "distance_from_center": 2.34
+          },
+          {
+            "id": 1117927212,
+            "name": "병천순대모래내",
+            "final_score": 0.1861,
+            "distance_from_center": 2.38
+          },
+          {
+            "id": 1693850894,
+            "name": "낙천식당",
+            "final_score": 0.3068,
+            "distance_from_center": 2.42
+          },
+          {
+            "id": 21226036,
+            "name": "개두릅장칼국수",
+            "final_score": 0.2324,
+            "distance_from_center": 2.42
+          }
+        ],
+        "Attraction": [
+          {
+            "id": 1848252796,
+            "name": "강릉아기동물농장",
+            "final_score": 0.2844,
+            "distance_from_center": 0.5
+          },
+          {
+            "id": 1261782152,
+            "name": "호린파크(경포대허브농장)",
+            "final_score": 0.1784,
+            "distance_from_center": 0.79
+          },
+          {
+            "id": 1800696554,
+            "name": "하평해변(강릉)",
+            "final_score": 0.2986,
+            "distance_from_center": 1.27
+          },
+          {
+            "id": 15704900,
+            "name": "사천진해변(사천뒷불해수욕장)",
+            "final_score": 0.376,
+            "distance_from_center": 1.65
+          },
+          {
+            "id": 13444336,
+            "name": "연곡해변",
+            "final_score": 0.2689,
+            "distance_from_center": 1.88
+          },
+          {
+            "id": 2145408639,
+            "name": "강릉 방동리 무궁화",
+            "final_score": 0.2262,
+            "distance_from_center": 1.89
+          },
+          {
+            "id": 1117620826,
+            "name": "뒷뜨루관광농원",
+            "final_score": 0.2462,
+            "distance_from_center": 1.95
+          },
+          {
+            "id": 15704484,
+            "name": "갈골한과체험전시관",
+            "final_score": 0.0581,
+            "distance_from_center": 2.41
+          },
+          {
+            "id": 13491268,
+            "name": "사천해변",
+            "final_score": 0.2021,
+            "distance_from_center": 2.43
+          },
+          {
+            "id": 20054445,
+            "name": "영진항",
+            "final_score": 0.157,
+            "distance_from_center": 2.78
+          },
+          {
+            "id": 13491150,
+            "name": "영진해변",
+            "final_score": 0.3301,
+            "distance_from_center": 2.97
+          },
+          {
+            "id": 1884028346,
+            "name": "순포습지",
+            "final_score": 0.1295,
+            "distance_from_center": 3.81
+          },
+          {
+            "id": 20103328,
+            "name": "순포해변",
+            "final_score": 0.2614,
+            "distance_from_center": 3.98
+          },
+          {
+            "id": 13491745,
+            "name": "순긋해변",
+            "final_score": 0.2706,
+            "distance_from_center": 4.35
+          },
+          {
+            "id": 15371716,
+            "name": "사근진해변",
+            "final_score": 0.2918,
+            "distance_from_center": 5.03
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 2,
+      "date": "2025-08-03",
+      "weekday": "일",
+      "seed_category": "Restaurant",
+      "seed_place": {
+        "id": 1195200384,
+        "name": "미면소 강릉",
+        "final_score": 0.4815
+      },
+      "center_lat": 37.760916,
+      "center_lng": 128.90337,
+      "categories": {
+        "Cafe": [
+          {
+            "id": 1182677835,
+            "name": "라스텔리나",
+            "final_score": 0.1285,
+            "distance_from_center": 0.33
+          },
+          {
+            "id": 2089930981,
+            "name": "머뭄카페",
+            "final_score": 0.2968,
+            "distance_from_center": 0.39
+          },
+          {
+            "id": 1488770728,
+            "name": "도넛인사이드도넛 강릉점",
+            "final_score": 0.2928,
+            "distance_from_center": 0.39
+          },
+          {
+            "id": 1671795817,
+            "name": "알뜨",
+            "final_score": 0.3224,
+            "distance_from_center": 0.4
+          },
+          {
+            "id": 15294021,
+            "name": "플레이스 플러스",
+            "final_score": 0.1884,
+            "distance_from_center": 0.51
+          },
+          {
+            "id": 2017317134,
+            "name": "상록당",
+            "final_score": 0.1597,
+            "distance_from_center": 0.7
+          },
+          {
+            "id": 1001417136,
+            "name": "리도커피",
+            "final_score": 0.3039,
+            "distance_from_center": 0.71
+          },
+          {
+            "id": 1277825412,
+            "name": "바스투체어",
+            "final_score": 0.1275,
+            "distance_from_center": 0.71
+          },
+          {
+            "id": 1578033962,
+            "name": "이로이로스모모",
+            "final_score": 0.2735,
+            "distance_from_center": 0.72
+          },
+          {
+            "id": 1331157860,
+            "name": "이스트 베이커리",
+            "final_score": 0.3191,
+            "distance_from_center": 0.73
+          },
+          {
+            "id": 1019654977,
+            "name": "희게",
+            "final_score": 0.3999,
+            "distance_from_center": 0.75
+          },
+          {
+            "id": 1659347323,
+            "name": "강릉샌드",
+            "final_score": 0.2656,
+            "distance_from_center": 0.77
+          },
+          {
+            "id": 1962975056,
+            "name": "마카모예 베이글바",
+            "final_score": 0.2997,
+            "distance_from_center": 0.78
+          },
+          {
+            "id": 1547896837,
+            "name": "솔방울제과점",
+            "final_score": 0.3072,
+            "distance_from_center": 0.78
+          },
+          {
+            "id": 2078030409,
+            "name": "강릉베이글",
+            "final_score": 0.2245,
+            "distance_from_center": 0.81
+          }
+        ],
+        "Restaurant": [
+          {
+            "id": 1195200384,
+            "name": "미면소 강릉",
+            "final_score": 0.4815,
+            "distance_from_center": 0.0
+          },
+          {
+            "id": 19354162,
+            "name": "추억의금노다지",
+            "final_score": 0.3565,
+            "distance_from_center": 0.12
+          },
+          {
+            "id": 35650206,
+            "name": "옥천오겹살",
+            "final_score": 0.2459,
+            "distance_from_center": 0.13
+          },
+          {
+            "id": 15304020,
+            "name": "메밀집",
+            "final_score": 0.1318,
+            "distance_from_center": 0.14
+          },
+          {
+            "id": 15304031,
+            "name": "명신식당",
+            "final_score": 0.1558,
+            "distance_from_center": 0.15
+          },
+          {
+            "id": 1007919986,
+            "name": "쓰이네",
+            "final_score": 0.2735,
+            "distance_from_center": 0.15
+          },
+          {
+            "id": 1541303714,
+            "name": "싸다아구찜&탕",
+            "final_score": 0.3638,
+            "distance_from_center": 0.16
+          },
+          {
+            "id": 1671909230,
+            "name": "매콤이 본점",
+            "final_score": 0.3835,
+            "distance_from_center": 0.16
+          },
+          {
+            "id": 12025780,
+            "name": "야식철가방",
+            "final_score": 0.2984,
+            "distance_from_center": 0.16
+          },
+          {
+            "id": 1503837624,
+            "name": "별들의고향",
+            "final_score": 0.2854,
+            "distance_from_center": 0.18
+          },
+          {
+            "id": 1419683252,
+            "name": "강릉역 옹막",
+            "final_score": 0.3026,
+            "distance_from_center": 0.19
+          },
+          {
+            "id": 2140078078,
+            "name": "진미양꼬치 본점",
+            "final_score": 0.4296,
+            "distance_from_center": 0.2
+          },
+          {
+            "id": 1100806567,
+            "name": "감동육개장",
+            "final_score": 0.3597,
+            "distance_from_center": 0.2
+          },
+          {
+            "id": 1841743441,
+            "name": "대관령양꼬치",
+            "final_score": 0.3519,
+            "distance_from_center": 0.21
+          },
+          {
+            "id": 1552987348,
+            "name": "또래오래 포남입암점",
+            "final_score": 0.058,
+            "distance_from_center": 0.23
+          }
+        ],
+        "Attraction": [
+          {
+            "id": 13345877,
+            "name": "강릉 서부시장",
+            "final_score": 0.3141,
+            "distance_from_center": 1.28
+          },
+          {
+            "id": 15685783,
+            "name": "강릉 대도호부 관아",
+            "final_score": 0.3152,
+            "distance_from_center": 1.3
+          },
+          {
+            "id": 749351147,
+            "name": "강릉 임영관 삼문",
+            "final_score": 0.0996,
+            "distance_from_center": 1.34
+          },
+          {
+            "id": 1249952785,
+            "name": "강릉 명주동 거리",
+            "final_score": 0.2813,
+            "distance_from_center": 1.43
+          },
+          {
+            "id": 12955259,
+            "name": "단오타운전시관",
+            "final_score": 0.1993,
+            "distance_from_center": 1.59
+          },
+          {
+            "id": 38623679,
+            "name": "명주예술마당",
+            "final_score": 0.2169,
+            "distance_from_center": 1.64
+          },
+          {
+            "id": 15693581,
+            "name": "강릉 남산공원",
+            "final_score": 0.1839,
+            "distance_from_center": 1.68
+          },
+          {
+            "id": 11592129,
+            "name": "강릉교육문화관",
+            "final_score": 0.2397,
+            "distance_from_center": 1.68
+          },
+          {
+            "id": 35188457,
+            "name": "애니멀스토리",
+            "final_score": 0.1428,
+            "distance_from_center": 1.9
+          },
+          {
+            "id": 2062786512,
+            "name": "강릉시립미술관 솔올",
+            "final_score": 0.1495,
+            "distance_from_center": 2.1
+          },
+          {
+            "id": 37090227,
+            "name": "버드나무 브루어리",
+            "final_score": 0.2222,
+            "distance_from_center": 2.18
+          },
+          {
+            "id": 1775014582,
+            "name": "리고엠",
+            "final_score": 0.2432,
+            "distance_from_center": 2.35
+          },
+          {
+            "id": 11535675,
+            "name": "강릉문화원",
+            "final_score": 0.2695,
+            "distance_from_center": 2.61
+          },
+          {
+            "id": 19832807,
+            "name": "강릉자수박물관",
+            "final_score": 0.0681,
+            "distance_from_center": 2.78
+          },
+          {
+            "id": 1346656418,
+            "name": "경포생태저류지",
+            "final_score": 0.1001,
+            "distance_from_center": 2.8
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 3,
+      "date": "2025-08-04",
+      "weekday": "월",
+      "seed_category": "Restaurant",
+      "seed_place": {
+        "id": 34105205,
+        "name": "대게한마당주문진본점",
+        "final_score": 0.4725
+      },
+      "center_lat": 37.887741,
+      "center_lng": 128.828952,
+      "categories": {
+        "Cafe": [
+          {
+            "id": 1266299794,
+            "name": "해옫 강릉",
+            "final_score": 0.4067,
+            "distance_from_center": 0.59
+          },
+          {
+            "id": 1169844332,
+            "name": "스타벅스 강릉주문진점",
+            "final_score": 0.2631,
+            "distance_from_center": 0.76
+          },
+          {
+            "id": 2017141901,
+            "name": "에브리데이크",
+            "final_score": 0.2316,
+            "distance_from_center": 0.81
+          },
+          {
+            "id": 1543529590,
+            "name": "카페제니엘 주문진점",
+            "final_score": 0.2085,
+            "distance_from_center": 0.85
+          },
+          {
+            "id": 1543529590,
+            "name": "카페제니엘 주문진점",
+            "final_score": 0.2085,
+            "distance_from_center": 0.85
+          },
+          {
+            "id": 1147229173,
+            "name": "도깨비젤라또",
+            "final_score": 0.2019,
+            "distance_from_center": 1.01
+          },
+          {
+            "id": 1249217189,
+            "name": "오드커피",
+            "final_score": 0.2237,
+            "distance_from_center": 1.09
+          },
+          {
+            "id": 1396977535,
+            "name": "소돌엔 등대점",
+            "final_score": 0.1824,
+            "distance_from_center": 1.17
+          },
+          {
+            "id": 1019347699,
+            "name": "플레이스 플러스",
+            "final_score": 0.1927,
+            "distance_from_center": 1.69
+          },
+          {
+            "id": 1299462841,
+            "name": "소돌엔 강릉",
+            "final_score": 0.1809,
+            "distance_from_center": 2.06
+          }
+        ],
+        "Restaurant": [
+          {
+            "id": 34105205,
+            "name": "대게한마당주문진본점",
+            "final_score": 0.4725,
+            "distance_from_center": 0.0
+          },
+          {
+            "id": 1801909812,
+            "name": "돈현이네",
+            "final_score": 0.2968,
+            "distance_from_center": 0.03
+          },
+          {
+            "id": 1303070508,
+            "name": "문어랑 강릉주문진항점",
+            "final_score": 0.2095,
+            "distance_from_center": 0.06
+          },
+          {
+            "id": 34632772,
+            "name": "실비생선구이 본점 작은집",
+            "final_score": 0.2666,
+            "distance_from_center": 0.12
+          },
+          {
+            "id": 1815684142,
+            "name": "실비생선구이 본점 큰집",
+            "final_score": 0.1855,
+            "distance_from_center": 0.14
+          },
+          {
+            "id": 15362879,
+            "name": "감칠맛회국수",
+            "final_score": 0.3015,
+            "distance_from_center": 0.16
+          },
+          {
+            "id": 1210141934,
+            "name": "귀자네순대국밥",
+            "final_score": 0.2196,
+            "distance_from_center": 0.17
+          },
+          {
+            "id": 36911308,
+            "name": "육반장 주문진점",
+            "final_score": 0.2892,
+            "distance_from_center": 0.17
+          },
+          {
+            "id": 1658810393,
+            "name": "영진댁",
+            "final_score": 0.381,
+            "distance_from_center": 0.2
+          },
+          {
+            "id": 2048194061,
+            "name": "강릉한우한돈정육식당 소온주문진",
+            "final_score": 0.2714,
+            "distance_from_center": 0.2
+          },
+          {
+            "id": 1888740640,
+            "name": "영진항",
+            "final_score": 0.3259,
+            "distance_from_center": 0.2
+          },
+          {
+            "id": 13281876,
+            "name": "강릉최대게 본점",
+            "final_score": 0.1936,
+            "distance_from_center": 0.21
+          },
+          {
+            "id": 38314569,
+            "name": "주문진신짬뽕",
+            "final_score": 0.1456,
+            "distance_from_center": 0.24
+          },
+          {
+            "id": 1395972978,
+            "name": "산마루황태촌",
+            "final_score": 0.2205,
+            "distance_from_center": 0.24
+          },
+          {
+            "id": 1062358382,
+            "name": "원영생선구이",
+            "final_score": 0.2563,
+            "distance_from_center": 0.27
+          }
+        ],
+        "Attraction": [
+          {
+            "id": 13490946,
+            "name": "주문진항",
+            "final_score": 0.3693,
+            "distance_from_center": 0.08
+          },
+          {
+            "id": 1600054868,
+            "name": "해피아워크루즈",
+            "final_score": 0.1358,
+            "distance_from_center": 0.21
+          },
+          {
+            "id": 34818378,
+            "name": "주문진해양박물관",
+            "final_score": 0.2137,
+            "distance_from_center": 0.39
+          },
+          {
+            "id": 20059236,
+            "name": "주문리마을",
+            "final_score": 0.2309,
+            "distance_from_center": 0.59
+          },
+          {
+            "id": 20054507,
+            "name": "주문진 등대",
+            "final_score": 0.1319,
+            "distance_from_center": 1.18
+          },
+          {
+            "id": 19501415,
+            "name": "소돌아들바위공원",
+            "final_score": 0.1181,
+            "distance_from_center": 2.01
+          },
+          {
+            "id": 13491657,
+            "name": "소돌해수욕장",
+            "final_score": 0.2907,
+            "distance_from_center": 2.06
+          },
+          {
+            "id": 13491005,
+            "name": "주문진해수욕장",
+            "final_score": 0.4281,
+            "distance_from_center": 2.7
+          },
+          {
+            "id": 15698326,
+            "name": "향호해변",
+            "final_score": 0.198,
+            "distance_from_center": 2.81
+          },
+          {
+            "id": 1154013651,
+            "name": "주문진bts",
+            "final_score": 0.0345,
+            "distance_from_center": 2.95
+          },
+          {
+            "id": 12390002,
+            "name": "강릉 복사꽃마을",
+            "final_score": 0.1474,
+            "distance_from_center": 4.6
+          }
+        ]
+      }
+    },
+    {
+      "cluster_id": 4,
+      "date": "2025-08-05",
+      "weekday": "화",
+      "seed_category": "Restaurant",
+      "seed_place": {
+        "id": 1379005450,
+        "name": "떡볶이는생각하지마세요",
+        "final_score": 0.4629
+      },
+      "center_lat": 37.75308,
+      "center_lng": 128.898302,
+      "categories": {
+        "Cafe": [
+          {
+            "id": 1683765421,
+            "name": "타임슬립",
+            "final_score": 0.221,
+            "distance_from_center": 0.04
+          },
+          {
+            "id": 1669842519,
+            "name": "오버웨잇 강릉본점",
+            "final_score": 0.2025,
+            "distance_from_center": 0.06
+          },
+          {
+            "id": 1318617687,
+            "name": "강릉이래요",
+            "final_score": 0.0981,
+            "distance_from_center": 0.11
+          },
+          {
+            "id": 1758181058,
+            "name": "김성수제빵소 강릉점",
+            "final_score": 0.2283,
+            "distance_from_center": 0.11
+          },
+          {
+            "id": 1697573959,
+            "name": "강릉커피콩빵 강릉당 중앙시장점",
+            "final_score": 0.1748,
+            "distance_from_center": 0.13
+          },
+          {
+            "id": 35256483,
+            "name": "설빙 강릉대학로점",
+            "final_score": 0.3461,
+            "distance_from_center": 0.13
+          },
+          {
+            "id": 1355852682,
+            "name": "젤라또마켓 순두부젤라또",
+            "final_score": 0.1887,
+            "distance_from_center": 0.14
+          },
+          {
+            "id": 1202298255,
+            "name": "팡파미유 중앙시장점",
+            "final_score": 0.1681,
+            "distance_from_center": 0.14
+          },
+          {
+            "id": 1689574654,
+            "name": "굴리아케이크",
+            "final_score": 0.1558,
+            "distance_from_center": 0.14
+          },
+          {
+            "id": 1086491623,
+            "name": "파충류카페 강릉점",
+            "final_score": 0.4065,
+            "distance_from_center": 0.15
+          },
+          {
+            "id": 1526049518,
+            "name": "커피러버스",
+            "final_score": 0.0766,
+            "distance_from_center": 0.16
+          },
+          {
+            "id": 1246478918,
+            "name": "중화짬뽕빵",
+            "final_score": 0.1433,
+            "distance_from_center": 0.16
+          },
+          {
+            "id": 2094977764,
+            "name": "장인더 강릉",
+            "final_score": 0.195,
+            "distance_from_center": 0.18
+          },
+          {
+            "id": 1517734190,
+            "name": "강원옥찹쌀떡 중앙시장점",
+            "final_score": 0.2539,
+            "distance_from_center": 0.18
+          },
+          {
+            "id": 2013389102,
+            "name": "크레마코스타 중앙시장점",
+            "final_score": 0.2581,
+            "distance_from_center": 0.18
+          }
+        ],
+        "Restaurant": [
+          {
+            "id": 1379005450,
+            "name": "떡볶이는생각하지마세요",
+            "final_score": 0.4629,
+            "distance_from_center": 0.0
+          },
+          {
+            "id": 1129595331,
+            "name": "애경부침",
+            "final_score": 0.3562,
+            "distance_from_center": 0.02
+          },
+          {
+            "id": 1622671621,
+            "name": "불개미식당",
+            "final_score": 0.1543,
+            "distance_from_center": 0.02
+          },
+          {
+            "id": 1651613690,
+            "name": "강릉사임당술빵",
+            "final_score": 0.1924,
+            "distance_from_center": 0.04
+          },
+          {
+            "id": 19828562,
+            "name": "성남칼국수",
+            "final_score": 0.2853,
+            "distance_from_center": 0.05
+          },
+          {
+            "id": 1175212803,
+            "name": "성남장터",
+            "final_score": 0.0649,
+            "distance_from_center": 0.05
+          },
+          {
+            "id": 32037906,
+            "name": "정윤이네먹거리",
+            "final_score": 0.1176,
+            "distance_from_center": 0.07
+          },
+          {
+            "id": 1430081795,
+            "name": "분식1번지",
+            "final_score": 0.3075,
+            "distance_from_center": 0.07
+          },
+          {
+            "id": 1416506512,
+            "name": "맛나칼국수",
+            "final_score": 0.3258,
+            "distance_from_center": 0.08
+          },
+          {
+            "id": 33920318,
+            "name": "여왕개미식당",
+            "final_score": 0.2643,
+            "distance_from_center": 0.08
+          },
+          {
+            "id": 32037933,
+            "name": "성원대박집",
+            "final_score": 0.1607,
+            "distance_from_center": 0.08
+          },
+          {
+            "id": 15297320,
+            "name": "광덕식당 중앙시장점",
+            "final_score": 0.3233,
+            "distance_from_center": 0.09
+          },
+          {
+            "id": 1218080909,
+            "name": "1300도씨짬뽕&떡볶이",
+            "final_score": 0.1533,
+            "distance_from_center": 0.11
+          },
+          {
+            "id": 15299914,
+            "name": "감자바우 장칼국수",
+            "final_score": 0.238,
+            "distance_from_center": 0.11
+          },
+          {
+            "id": 15297075,
+            "name": "유성상회 강릉본점",
+            "final_score": 0.1566,
+            "distance_from_center": 0.11
+          }
+        ],
+        "Attraction": [
+          {
+            "id": 1412053208,
+            "name": "처음처럼&새로 브랜드 체험관",
+            "final_score": 0.159,
+            "distance_from_center": 2.89
+          },
+          {
+            "id": 37081677,
+            "name": "수상한마법학교",
+            "final_score": 0.0399,
+            "distance_from_center": 3.02
+          },
+          {
+            "id": 21824426,
+            "name": "강릉원주대학교 박물관",
+            "final_score": 0.457,
+            "distance_from_center": 3.16
+          },
+          {
+            "id": 11620702,
+            "name": "강릉 오죽헌·시립박물관",
+            "final_score": 0.2513,
+            "distance_from_center": 3.33
+          },
+          {
+            "id": 20066249,
+            "name": "강릉 수리골 고택",
+            "final_score": 0.2301,
+            "distance_from_center": 3.74
+          },
+          {
+            "id": 11687693,
+            "name": "강릉 선교장",
+            "final_score": 0.2192,
+            "distance_from_center": 3.9
+          },
+          {
+            "id": 1243747688,
+            "name": "병산 옹심이마을",
+            "final_score": 0.2998,
+            "distance_from_center": 3.92
+          },
+          {
+            "id": 31044854,
+            "name": "경포가시연습지",
+            "final_score": 0.0862,
+            "distance_from_center": 4.05
+          },
+          {
+            "id": 20066218,
+            "name": "허난설헌 생가터",
+            "final_score": 0.1686,
+            "distance_from_center": 4.43
+          },
+          {
+            "id": 32268465,
+            "name": "환희컵박물관",
+            "final_score": 0.185,
+            "distance_from_center": 4.61
+          },
+          {
+            "id": 1675156043,
+            "name": "강릉 경포대",
+            "final_score": 0.3071,
+            "distance_from_center": 4.73
+          },
+          {
+            "id": 13491109,
+            "name": "경포호",
+            "final_score": 0.1401,
+            "distance_from_center": 4.73
+          },
+          {
+            "id": 939463951,
+            "name": "강릉 안목해맞이공원",
+            "final_score": 0.3004,
+            "distance_from_center": 4.75
+          },
+          {
+            "id": 1542622512,
+            "name": "원더스카이",
+            "final_score": 0.1791,
+            "distance_from_center": 4.78
+          },
+          {
+            "id": 20947876,
+            "name": "강릉커피거리",
+            "final_score": 0.1955,
+            "distance_from_center": 4.83
+          }
+        ]
+      }
+    }
+  ]
+}

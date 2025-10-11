@@ -1,0 +1,175 @@
+{
+  "budget_per_day": 260000,
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "2025-09-05",
+      "travel_day": "Fri",
+      "season": "offpeak",
+      "is_weekend": true,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "09:30"
+        },
+        {
+          "category": "Attraction",
+          "count": 2,
+          "time": "10:30"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "14:00"
+        },
+        {
+          "category": "Restaurant",
+          "count": 2,
+          "time": "16:00"
+        },
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "19:00"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2025-09-06",
+      "travel_day": "Sat",
+      "season": "offpeak",
+      "is_weekend": true,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "09:30"
+        },
+        {
+          "category": "Attraction",
+          "count": 3,
+          "time": "10:30"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "14:30"
+        },
+        {
+          "category": "Restaurant",
+          "count": 2,
+          "time": "16:30"
+        },
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "19:30"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2025-09-07",
+      "travel_day": "Sun",
+      "season": "offpeak",
+      "is_weekend": false,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "09:30"
+        },
+        {
+          "category": "Attraction",
+          "count": 2,
+          "time": "10:30"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "14:00"
+        },
+        {
+          "category": "Restaurant",
+          "count": 2,
+          "time": "16:00"
+        },
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "19:00"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "2025-09-08",
+      "travel_day": "Mon",
+      "season": "offpeak",
+      "is_weekend": false,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "09:30"
+        },
+        {
+          "category": "Attraction",
+          "count": 3,
+          "time": "10:30"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "14:30"
+        },
+        {
+          "category": "Restaurant",
+          "count": 2,
+          "time": "16:30"
+        },
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "19:30"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "2025-09-09",
+      "travel_day": "Tue",
+      "season": "offpeak",
+      "is_weekend": false,
+      "transport": "car",
+      "place_plan": [
+        {
+          "category": "Accommodation",
+          "count": 1,
+          "time": "09:30"
+        },
+        {
+          "category": "Attraction",
+          "count": 2,
+          "time": "10:30"
+        },
+        {
+          "category": "Cafe",
+          "count": 1,
+          "time": "14:00"
+        },
+        {
+          "category": "Restaurant",
+          "count": 2,
+          "time": "16:00"
+        }
+      ]
+    }
+  ]
+}

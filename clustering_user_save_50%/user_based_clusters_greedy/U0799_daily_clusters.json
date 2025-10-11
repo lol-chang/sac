@@ -1,0 +1,307 @@
+{
+  "user_id": "U0799",
+  "start_date": "2025-03-30",
+  "start_weekday": "일",
+  "duration_days": 1,
+  "budget": 400000,
+  "num_clusters": 1,
+  "clustering_method": "greedy_score_based_with_store_hours",
+  "seed_strategy": "highest_score_only",
+  "max_cluster_radius_km": 6,
+  "min_places_per_category": 7,
+  "places_per_category": 15,
+  "Accommodation": null,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "date": "2025-03-30",
+      "weekday": "일",
+      "seed_category": "Cafe",
+      "seed_place": {
+        "id": 1009179914,
+        "name": "갈매기다방",
+        "final_score": 0.5557
+      },
+      "center_lat": 37.870299,
+      "center_lng": 128.842992,
+      "categories": {
+        "Cafe": [
+          {
+            "id": 1009179914,
+            "name": "갈매기다방",
+            "final_score": 0.5557,
+            "distance_from_center": 0.0
+          },
+          {
+            "id": 1876301121,
+            "name": "포르토포레스트하우스",
+            "final_score": 0.5168,
+            "distance_from_center": 0.14
+          },
+          {
+            "id": 1839133695,
+            "name": "빵을쇼핑하다빵명가치아바타CIABATTA",
+            "final_score": 0.3533,
+            "distance_from_center": 0.22
+          },
+          {
+            "id": 15373350,
+            "name": "브라질",
+            "final_score": 0.3563,
+            "distance_from_center": 0.37
+          },
+          {
+            "id": 1900553385,
+            "name": "바우카페",
+            "final_score": 0.3677,
+            "distance_from_center": 0.39
+          },
+          {
+            "id": 11682971,
+            "name": "보헤미안박이추커피본점",
+            "final_score": 0.2662,
+            "distance_from_center": 0.63
+          },
+          {
+            "id": 1249217189,
+            "name": "오드커피",
+            "final_score": 0.4267,
+            "distance_from_center": 1.22
+          },
+          {
+            "id": 1147229173,
+            "name": "도깨비젤라또",
+            "final_score": 0.2324,
+            "distance_from_center": 1.3
+          },
+          {
+            "id": 1169844332,
+            "name": "스타벅스 강릉주문진점",
+            "final_score": 0.3882,
+            "distance_from_center": 1.58
+          },
+          {
+            "id": 1777557364,
+            "name": "크림하우스",
+            "final_score": 0.3597,
+            "distance_from_center": 2.71
+          },
+          {
+            "id": 1543529590,
+            "name": "카페제니엘 주문진점",
+            "final_score": 0.323,
+            "distance_from_center": 2.79
+          },
+          {
+            "id": 1543529590,
+            "name": "카페제니엘 주문진점",
+            "final_score": 0.323,
+            "distance_from_center": 2.79
+          },
+          {
+            "id": 1266299794,
+            "name": "해옫 강릉",
+            "final_score": 0.5056,
+            "distance_from_center": 2.87
+          },
+          {
+            "id": 2017141901,
+            "name": "에브리데이크",
+            "final_score": 0.4014,
+            "distance_from_center": 2.98
+          },
+          {
+            "id": 1396977535,
+            "name": "소돌엔 등대점",
+            "final_score": 0.2831,
+            "distance_from_center": 3.19
+          }
+        ],
+        "Restaurant": [
+          {
+            "id": 1140539859,
+            "name": "Miss한우",
+            "final_score": 0.3893,
+            "distance_from_center": 0.34
+          },
+          {
+            "id": 1843519259,
+            "name": "영진보리밥쌈밥",
+            "final_score": 0.3512,
+            "distance_from_center": 0.35
+          },
+          {
+            "id": 1167311952,
+            "name": "메밀애감자",
+            "final_score": 0.4133,
+            "distance_from_center": 0.36
+          },
+          {
+            "id": 1043586683,
+            "name": "내촌옥",
+            "final_score": 0.5069,
+            "distance_from_center": 0.36
+          },
+          {
+            "id": 1229266906,
+            "name": "달구지막창 주문진점",
+            "final_score": 0.3632,
+            "distance_from_center": 0.36
+          },
+          {
+            "id": 15705872,
+            "name": "홍질목",
+            "final_score": 0.2404,
+            "distance_from_center": 0.58
+          },
+          {
+            "id": 15360393,
+            "name": "현자네해물촌",
+            "final_score": 0.2118,
+            "distance_from_center": 1.07
+          },
+          {
+            "id": 15372694,
+            "name": "부영식당",
+            "final_score": 0.2967,
+            "distance_from_center": 1.19
+          },
+          {
+            "id": 318625076,
+            "name": "주문진 상희네횟집 홍게무한리필",
+            "final_score": 0.3118,
+            "distance_from_center": 1.26
+          },
+          {
+            "id": 15372688,
+            "name": "연곡이모네",
+            "final_score": 0.4223,
+            "distance_from_center": 1.31
+          },
+          {
+            "id": 33133925,
+            "name": "해랑대게횟집",
+            "final_score": 0.4481,
+            "distance_from_center": 1.32
+          },
+          {
+            "id": 1497296016,
+            "name": "북강릉진국설렁탕",
+            "final_score": 0.4425,
+            "distance_from_center": 1.32
+          },
+          {
+            "id": 1316825170,
+            "name": "믿음식당",
+            "final_score": 0.2694,
+            "distance_from_center": 1.33
+          },
+          {
+            "id": 20264808,
+            "name": "주문진가마솥설렁탕",
+            "final_score": 0.1683,
+            "distance_from_center": 1.4
+          },
+          {
+            "id": 11799922,
+            "name": "페리카나 도립대점",
+            "final_score": 0.3674,
+            "distance_from_center": 1.41
+          }
+        ],
+        "Attraction": [
+          {
+            "id": 13491150,
+            "name": "영진해변",
+            "final_score": 0.3187,
+            "distance_from_center": 0.29
+          },
+          {
+            "id": 20054445,
+            "name": "영진항",
+            "final_score": 0.2767,
+            "distance_from_center": 0.52
+          },
+          {
+            "id": 13444336,
+            "name": "연곡해변",
+            "final_score": 0.3873,
+            "distance_from_center": 1.4
+          },
+          {
+            "id": 13490946,
+            "name": "주문진항",
+            "final_score": 0.4781,
+            "distance_from_center": 2.24
+          },
+          {
+            "id": 1600054868,
+            "name": "해피아워크루즈",
+            "final_score": 0.2295,
+            "distance_from_center": 2.49
+          },
+          {
+            "id": 34818378,
+            "name": "주문진해양박물관",
+            "final_score": 0.2127,
+            "distance_from_center": 2.64
+          },
+          {
+            "id": 20059236,
+            "name": "주문리마을",
+            "final_score": 0.2196,
+            "distance_from_center": 2.87
+          },
+          {
+            "id": 1848252796,
+            "name": "강릉아기동물농장",
+            "final_score": 0.1797,
+            "distance_from_center": 3.11
+          },
+          {
+            "id": 20054507,
+            "name": "주문진 등대",
+            "final_score": 0.2567,
+            "distance_from_center": 3.15
+          },
+          {
+            "id": 1261782152,
+            "name": "호린파크(경포대허브농장)",
+            "final_score": 0.2922,
+            "distance_from_center": 3.49
+          },
+          {
+            "id": 1800696554,
+            "name": "하평해변(강릉)",
+            "final_score": 0.4262,
+            "distance_from_center": 3.74
+          },
+          {
+            "id": 1117620826,
+            "name": "뒷뜨루관광농원",
+            "final_score": 0.3136,
+            "distance_from_center": 3.92
+          },
+          {
+            "id": 19501415,
+            "name": "소돌아들바위공원",
+            "final_score": 0.1421,
+            "distance_from_center": 4.14
+          },
+          {
+            "id": 13491657,
+            "name": "소돌해수욕장",
+            "final_score": 0.3489,
+            "distance_from_center": 4.23
+          },
+          {
+            "id": 15704900,
+            "name": "사천진해변(사천뒷불해수욕장)",
+            "final_score": 0.3101,
+            "distance_from_center": 4.3
+          }
+        ]
+      }
+    }
+  ]
+}

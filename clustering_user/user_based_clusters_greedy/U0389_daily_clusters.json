@@ -1,0 +1,307 @@
+{
+  "user_id": "U0389",
+  "start_date": "2025-03-17",
+  "start_weekday": "월",
+  "duration_days": 1,
+  "budget": 100000,
+  "num_clusters": 1,
+  "clustering_method": "greedy_score_based_with_store_hours",
+  "seed_strategy": "highest_score_only",
+  "max_cluster_radius_km": 6,
+  "min_places_per_category": 7,
+  "places_per_category": 15,
+  "Accommodation": null,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "date": "2025-03-17",
+      "weekday": "월",
+      "seed_category": "Attraction",
+      "seed_place": {
+        "id": 15704900,
+        "name": "사천진해변(사천뒷불해수욕장)",
+        "final_score": 0.4352
+      },
+      "center_lat": 37.841225,
+      "center_lng": 128.875349,
+      "categories": {
+        "Cafe": [
+          {
+            "id": 1745145004,
+            "name": "바우카페 본점",
+            "final_score": 0.1338,
+            "distance_from_center": 0.04
+          },
+          {
+            "id": 13535267,
+            "name": "쉘리스",
+            "final_score": 0.053,
+            "distance_from_center": 0.17
+          },
+          {
+            "id": 1779443730,
+            "name": "곳",
+            "final_score": 0.1688,
+            "distance_from_center": 0.34
+          },
+          {
+            "id": 2069032826,
+            "name": "원강희과자점",
+            "final_score": 0.1738,
+            "distance_from_center": 0.37
+          },
+          {
+            "id": 1777557364,
+            "name": "크림하우스",
+            "final_score": 0.0728,
+            "distance_from_center": 1.63
+          },
+          {
+            "id": 1174295057,
+            "name": "깔라마리",
+            "final_score": 0.069,
+            "distance_from_center": 2.09
+          },
+          {
+            "id": 1854962812,
+            "name": "테라로사 사천해변점",
+            "final_score": 0.0039,
+            "distance_from_center": 2.26
+          },
+          {
+            "id": 1288938606,
+            "name": "오늘에",
+            "final_score": 0.1222,
+            "distance_from_center": 2.62
+          },
+          {
+            "id": 1246262619,
+            "name": "우가",
+            "final_score": 0.154,
+            "distance_from_center": 2.79
+          },
+          {
+            "id": 2058022471,
+            "name": "온유",
+            "final_score": 0.2311,
+            "distance_from_center": 3.0
+          },
+          {
+            "id": 11682971,
+            "name": "보헤미안박이추커피본점",
+            "final_score": 0.1374,
+            "distance_from_center": 3.89
+          },
+          {
+            "id": 1986607278,
+            "name": "백야커피",
+            "final_score": 0.1458,
+            "distance_from_center": 3.91
+          },
+          {
+            "id": 1900553385,
+            "name": "바우카페",
+            "final_score": 0.1804,
+            "distance_from_center": 3.92
+          },
+          {
+            "id": 15373350,
+            "name": "브라질",
+            "final_score": 0.1735,
+            "distance_from_center": 3.94
+          },
+          {
+            "id": 1839133695,
+            "name": "빵을쇼핑하다빵명가치아바타CIABATTA",
+            "final_score": 0.1739,
+            "distance_from_center": 4.09
+          }
+        ],
+        "Restaurant": [
+          {
+            "id": 15371788,
+            "name": "전주식당",
+            "final_score": 0.0302,
+            "distance_from_center": 0.37
+          },
+          {
+            "id": 1468367465,
+            "name": "채선당 강릉사천항점",
+            "final_score": 0.2605,
+            "distance_from_center": 0.4
+          },
+          {
+            "id": 19891301,
+            "name": "장안횟집",
+            "final_score": 0.273,
+            "distance_from_center": 0.4
+          },
+          {
+            "id": 1036955196,
+            "name": "제주해인물회",
+            "final_score": 0.1939,
+            "distance_from_center": 0.41
+          },
+          {
+            "id": 1015624214,
+            "name": "사천샘골식당",
+            "final_score": 0.2593,
+            "distance_from_center": 0.73
+          },
+          {
+            "id": 945583235,
+            "name": "산호막국수",
+            "final_score": 0.2091,
+            "distance_from_center": 1.05
+          },
+          {
+            "id": 35743969,
+            "name": "솔밭추어탕",
+            "final_score": 0.2241,
+            "distance_from_center": 1.27
+          },
+          {
+            "id": 1434030213,
+            "name": "강남흑염소전문점",
+            "final_score": 0.3105,
+            "distance_from_center": 1.65
+          },
+          {
+            "id": 1760318925,
+            "name": "대관령주막",
+            "final_score": 0.1687,
+            "distance_from_center": 2.66
+          },
+          {
+            "id": 1866632720,
+            "name": "사천닭내장탕",
+            "final_score": 0.0,
+            "distance_from_center": 3.01
+          },
+          {
+            "id": 1117927212,
+            "name": "병천순대모래내",
+            "final_score": 0.1057,
+            "distance_from_center": 3.09
+          },
+          {
+            "id": 21226036,
+            "name": "개두릅장칼국수",
+            "final_score": 0.1683,
+            "distance_from_center": 3.09
+          },
+          {
+            "id": 1693850894,
+            "name": "낙천식당",
+            "final_score": 0.178,
+            "distance_from_center": 3.13
+          },
+          {
+            "id": 1951006286,
+            "name": "흑진주",
+            "final_score": 0.0985,
+            "distance_from_center": 3.16
+          },
+          {
+            "id": 15372120,
+            "name": "금학분식",
+            "final_score": 0.2388,
+            "distance_from_center": 3.17
+          }
+        ],
+        "Attraction": [
+          {
+            "id": 15704900,
+            "name": "사천진해변(사천뒷불해수욕장)",
+            "final_score": 0.4352,
+            "distance_from_center": 0.0
+          },
+          {
+            "id": 1800696554,
+            "name": "하평해변(강릉)",
+            "final_score": 0.2254,
+            "distance_from_center": 0.57
+          },
+          {
+            "id": 1261782152,
+            "name": "호린파크(경포대허브농장)",
+            "final_score": 0.0924,
+            "distance_from_center": 0.93
+          },
+          {
+            "id": 13491268,
+            "name": "사천해변",
+            "final_score": 0.1677,
+            "distance_from_center": 1.35
+          },
+          {
+            "id": 1848252796,
+            "name": "강릉아기동물농장",
+            "final_score": 0.1103,
+            "distance_from_center": 1.37
+          },
+          {
+            "id": 2145408639,
+            "name": "강릉 방동리 무궁화",
+            "final_score": 0.1726,
+            "distance_from_center": 1.83
+          },
+          {
+            "id": 1884028346,
+            "name": "순포습지",
+            "final_score": 0.0922,
+            "distance_from_center": 2.61
+          },
+          {
+            "id": 20103328,
+            "name": "순포해변",
+            "final_score": 0.1714,
+            "distance_from_center": 2.77
+          },
+          {
+            "id": 13444336,
+            "name": "연곡해변",
+            "final_score": 0.3086,
+            "distance_from_center": 2.92
+          },
+          {
+            "id": 13491745,
+            "name": "순긋해변",
+            "final_score": 0.2099,
+            "distance_from_center": 3.13
+          },
+          {
+            "id": 15704484,
+            "name": "갈골한과체험전시관",
+            "final_score": 0.0,
+            "distance_from_center": 3.37
+          },
+          {
+            "id": 1117620826,
+            "name": "뒷뜨루관광농원",
+            "final_score": 0.2105,
+            "distance_from_center": 3.43
+          },
+          {
+            "id": 15371716,
+            "name": "사근진해변",
+            "final_score": 0.2069,
+            "distance_from_center": 3.78
+          },
+          {
+            "id": 1338629806,
+            "name": "사근진해중공원 전망대",
+            "final_score": 0.1526,
+            "distance_from_center": 3.78
+          },
+          {
+            "id": 1338629806,
+            "name": "사근진해중공원 전망대",
+            "final_score": 0.1526,
+            "distance_from_center": 3.78
+          }
+        ]
+      }
+    }
+  ]
+}
